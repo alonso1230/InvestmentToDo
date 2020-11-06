@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Investment ToDo</string>
+
+    <string name="ok">OK</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="error">Ошибка</string>
+    <string name="added">Добавлено</string>
+
+    <string name="main_welcome">Добро пожаловать в приложение Investment ToDo</string>
+    <string name="main_registration">Регистрация</string>
+    <string name="main_enter">Войти</string>
+
+    <string name="enter_name_error">Пользователя с таким именем не существует</string>
+    <string name="enter_password_error">Введен неверный пароль</string>
+
+    <string name="registration_name">Имя</string>
+    <string name="registration_password">Пароль</string>
+    <string name="registration_button">Зарегистрироваться</string>
+    <string name="registration_has_user">Пользователь с таким именем уже существует</string>
+    <string name="registration_success">Регистрация прошла успешно</string>
+
+    <string name="drawer_open">Open drawer layout</string>
+    <string name="drawer_close">Close drawer layout</string>
+    <string name="drawer_menu_projects">Проекты</string>
+    <string name="drawer_menu_settings">Настройки</string>
+    <string name="drawer_menu_logout">Выйти</string>
+    <string name="drawer_menu_logout_dialog_message">Вы действительно хотите выйти?</string>
+
+    <string name="projects_empty_list">У вас нет проектов</string>
+
+    <string name="project_detail_rename_title">Переименовать проект</string>
+    <string name="project_detail_tab_open">Открытые</string>
+    <string name="project_detail_tab_in_progress">В работе</string>
+    <string name="project_detail_tab_resolved">Решенные</string>
+
+    <string name="card_detail_title">Детальная информация</string>
+    <string name="card_detail_in_progress">Взять в работу</string>
+    <string name="card_detail_stop_progress">Стоп работа</string>
+    <string name="card_detail_resolve">В решенные</string>
+    <string name="card_detail_open">Переоткрыть</string>
+    <string name="card_detail_status_card">Статус карточки:</string>
+    <string name="card_detail_create_user">Создатель:</string>
+    <string name="card_detail_executor_user">Исполнитель:</string>
+    <string name="card_detail_members">Участники:</string>
+    <string name="card_detail_date_create">Дата создания:</string>
+    <string name="card_detail_date_resolve">Дата решения:</string>
+    <string name="card_detail_date_deadline">Дата дедлайна:</string>
+    <string name="card_detail_add_comment">Добавить комментарий</string>
+</resources>

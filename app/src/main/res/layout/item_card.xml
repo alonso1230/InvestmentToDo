@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvCardName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/cvCardUser"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="Card" />
+
+        <TextView
+            android:id="@+id/tvCardDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCardName"
+            android:layout_marginTop="4dp"
+            android:layout_toLeftOf="@+id/cvCardUser"
+            android:ellipsize="end"
+            android:singleLine="true"
+            tools:text="Description" />
+
+        <com.example.investmenttodo.util.view.CircleView
+            android:id="@+id/cvCardUser"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvCardCommentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cvCardUser"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:drawableLeft="@drawable/ic_comment_gray"
+            android:drawablePadding="2dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            tools:text="1" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
